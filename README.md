@@ -14,6 +14,10 @@ Multi-agent copy-trading system for [Polymarket](https://polymarket.com). Three 
 Spanish invoicing engine with full **Verifactu (AEAT)** compliance: SHA-256 hash chain, XML signed and validated against the official XSD, Postgres with row-level security, FastAPI backend.
 `Python` · `FastAPI` · `PostgreSQL` · `Verifactu`
 
+### [buscador-de-clientes](https://github.com/robercurdia-dot/buscador-de-clientes)
+Resumable CLI pipeline for B2B lead generation: Google Maps discovery inside a geographic polygon, Facebook/website enrichment, WhatsApp verification and sending under anti-ban rate limits with hard safety gates and 48h emergency stop. Every stage is idempotent on top of SQLite.
+`Python` · `Typer CLI` · `Playwright` · `SQLite` · `shapely`
+
 ### [autopublisher](https://github.com/robercurdia-dot/autopublisher)
 End-to-end content-publishing pipeline: ingestion, clipping, brand-aware post generation, multi-channel scheduling, analytics loop.
 `Python` · `automation` · `content pipeline`
